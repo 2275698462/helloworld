@@ -1,0 +1,11 @@
+#dubbo:
+#  application:
+#    name: user-service-provider
+#  registry:
+#    address: zookeeper://localhost:2181  #\u6CE8\u518C\u4E2D\u5FC3
+#  protocol:
+#    name: dubbo  #\u901A\u4FE1\u534F\u8BAE
+#    port: 20080   #\u901A\u4FE1\u7AEF\u53E3
+#  monitor:
+#    protocol: registry  #\u53BB\u6CE8\u518C\u4E2D\u5FC3\u53D1\u73B0\u76D1\u63A7\u4E2D\u5FC3
+
